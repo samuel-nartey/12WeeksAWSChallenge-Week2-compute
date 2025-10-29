@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AWS Challenge Frontend</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .card {
+      display: inline-block;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+    h1 { color: #0073bb; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Frontend Connected ✅</h1>
+    <p><b>Message from Backend:</b> {{ data.message }}</p>
+    <p><b>Users:</b> {{ data.users }}</p>
+  </div>
+</body>
+</html>
